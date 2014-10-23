@@ -1,3 +1,37 @@
+/*
+ * Custom CSS
+ *
+ */
+
+
+/* Overriding bootstrap column widths*/
+@media (min-width: 768px) {
+  .col-sm-9 {
+	width: 73%;
+  }
+
+  .col-sm-3 {
+	width: 27%;
+  }
+}
+
+/* Overriding bootstrap container width, including media queries */
+  .container {
+	width: 100%;
+	max-width: 117rem;
+  }  
+
+/* Mobile styling for square photos */
+@media (max-width: 768px) {
+  .col-sm-4 {
+	width: 32%;
+	margin: 0;
+	display: inline-block;
+  }
+
+}
+
+
 * {
 	font-family: 'Sorts Mill Goudy', serif;
 }
@@ -16,6 +50,13 @@ body{
 	background-color: #9EC7E4;
 }
 
+.box-ad {
+	margin-bottom: 2rem;
+	width: 100%;
+	text-align: center;
+}
+
+
 h1{
 	font-family:  Cochin, Didot, Times New Roman, serif;
 	color: white;
@@ -28,12 +69,19 @@ h1{
 }
 
 h3{
+	font-family: 'Georgia', 'Times New Roman', times, serif;
 	color: white;
-	background: #114A99;
-	font-weight: lighter;
+	padding-left: 1rem;
+	font-weight: 400;
 	text-align: left;
-	font-size: 14px;
-	margin-top: -20px;
+	font-size: 2rem;
+	line-height: 1.5rem;
+}
+
+.barnard-links {
+	box-sizing: border-box;
+	margin-top: 0.3rem;
+	width: 100%;
 }
 
 .squares img{
@@ -137,12 +185,13 @@ ul.header li{
 	-webkit-transform: translate Y(30px);
 	transform: translateY(30px);
 	display: table-cell;
-	font-size: 0.8em;
+	font-size: 1em;
 	position: relative;
 	top: 20px;
 	width: 580px;
 	vertical-align: center;
 	color: #000033;
+	font-weight: 700;
 }
 
 .photo-grid:hover figcaption p {
@@ -151,8 +200,9 @@ ul.header li{
 	transform: translateY(30px);
 	position: relative;
 	vertical-align: center;
-	font-size: 0.8em;
-	color: #000033;
+	font-size: 1em;
+	color: #000000;
+	font-weight: 700;
 }
 
 .photo-grid:hover figcaption {
@@ -179,6 +229,17 @@ ul.header li{
 .ad-column img {
 	max-width: 100%;
 	height: auto;
+}
+
+
+/* Mobile styling for figcaptions of squares */
+
+@media (max-width: 768px) {
+  .col-sm-4 p {
+	font-size: 0.7em !important;
+	top: -1em !important;
+  }
+
 }
 
 /* navbar and leaderboard */
@@ -232,6 +293,11 @@ ul.header li{
 	padding: 0;
 	padding-top: 0.6rem;
 	height: 3rem;
+	font-size: 1rem;
+	font-family: 'Whitney SSm A', 'Whitney SSm B' !important;
+	font-weight: 800;
+	font-style: normal;
+	color: white;
 }
 
 .navbar {
