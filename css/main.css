@@ -2,6 +2,13 @@
 	font-family: 'Sorts Mill Goudy', serif;
 }
 
+hr {
+margin-top: 20px;
+margin-bottom: 20px;
+border: 0;
+border-top: 1px solid #eee;
+}
+
 ul { padding: 0;}
 
 body{
@@ -259,3 +266,6 @@ ul.header li{
 	}
 }
 
+footer {
+	padding-left: 3em;
+}
