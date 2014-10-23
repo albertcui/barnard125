@@ -12,14 +12,13 @@ body{
 
 #page {
 	max-width: 120rem;
+	margin: 0 auto;
 }
 
 h1{
 	font-family:  Cochin, Didot, Times New Roman, serif;
 	/*font-family:'Knockout 47 A', 'Knockout 47B', Arial;*/
-
 	color: white;
-	text-transform:uppercase;
 	padding-right: 50px;
 	padding-top: 15px;
 	margin-top: -5px;
