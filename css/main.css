@@ -28,18 +28,21 @@ h3{
 }
 
 .squares img{
-	width: 240px;
-	height: 240px;
 	text-align: center;
+}
+
+.longs .row {
+	width: 100%;
 }
 
 .longs img{
-	width: 360px;
-	height: 240px;
 	text-align: center;
 }
 
-
+figure img {
+	padding: 0.5rem;
+	width: 100%;
+}
 ul.header li{
 	display: inline-block;
 	margin: 2px;
@@ -76,9 +79,15 @@ ul.header li{
 	float: left;
 }*/
 
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
 .photo-grid {
-/*	display: inline-block;*/
 	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .photo-grid .squares img {
