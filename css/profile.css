@@ -10,6 +10,10 @@ body{
 	margin:0;
 }
 
+#page {
+	max-width: 120rem;
+}
+
 h1{
 	font-family:  Cochin, Didot, Times New Roman, serif;
 	/*font-family:'Knockout 47 A', 'Knockout 47B', Arial;*/
@@ -22,9 +26,25 @@ h1{
 	font-weight: lighter;
 	text-align: right;
 }
+
 h2 {
-	margin-bottom:0px;
+	margin-bottom: 0px;
+	font-size: 4rem;
+	font-weight: 800;
 }
+
+h3 {
+	margin-top: 0.5rem;
+	font-size: 2rem;
+	font-style: italic;
+}
+
+
+.credits p, .credits p strong {
+	font-family: Georgia;
+	text-align: center;
+}
+
 #header {
 	display: inline-block;
 	width:100%;
@@ -47,11 +67,20 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 #about{
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
+	margin-bottom: 3rem;
+	padding: 2rem;
 }
+
+#about p {
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
 #media{
 	width: 90%;
 	margin-left: 5%;
@@ -60,14 +89,18 @@ h2 {
 	/*height: 30rem; Sneha commented it out*/
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-bottom: 2rem;
 }
 #media img{
 	max-width:100%;
 	margin-left:0;
 }
+
 #media p{
 	margin-top:0;
 	margin-bottom:0;
+	text-align: right;
+	color: #CDCDCD;
 }
 
 .slick-track{
@@ -90,13 +123,16 @@ h2 {
 	width:100px;
 }
 .content-item{
-	margin:20px;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 #home{
 	text-align: center;
 	line-height: 2em;
 	font-family:  Cochin, Didot, Times New Roman, serif;
+	margin-bottom: 2rem;
 }
+
 /*
 #ad-wrapper{
 	width:100%;
@@ -108,12 +144,15 @@ h2 {
 #ad-wrapper a{
 	width:80%;
 }*/
+
 #ad-banner{
-padding-left: 10px;
-padding-right: 10px; /*added by Smita*/
-margin-left:auto;
-margin-right:auto;
+	padding-left: 10px;
+	padding-right: 10px; /*added by Smita*/
+	margin: 0 auto;
+	width:100%;
+	max-width: 728px;
 }
+
 #ad-banner img{
 	width:100%;
 	height: auto;
@@ -151,6 +190,7 @@ margin-right:auto;
 	.box-ad{
 		max-width:30%;
 		display:inline-block;
+		padding-left:2%;
 	}
 }
 @media only screen and (max-width:500px){ /*Smita added space here*/
@@ -205,13 +245,17 @@ margin-right:auto;
 	font-size: 1.9rem;
 	line-height: 2rem;
 	color: #FFFFFF;
-	margin-right: 2em;
 }
 
 .navbar-brand {
-	padding: 0;
-	padding-top: 0.6rem;
-	height: 3rem;
+        padding: 0;
+        padding-top: 0.6rem;
+        height: 3rem;
+        font-size: 1rem;
+        font-family: 'Whitney SSm A', 'Whitney SSm B' !important;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
 }
 
 .navbar {
@@ -246,7 +290,7 @@ footer {
 	.wrapper-clearfix .navbar-brand {
 		float: left;
 		padding-left: 3em;
-		font-size: 3rem;
+		font-size: 2.5rem;
 		padding-top: 1.5rem;
 	}
 	

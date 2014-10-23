@@ -56,7 +56,7 @@ body{
 	text-align: center;
 }
 
-
+/* 
 h1{
 	font-family:  Cochin, Didot, Times New Roman, serif;
 	color: white;
@@ -67,6 +67,7 @@ h1{
 	font-weight: lighter;
 	text-align: right;
 }
+*/
 
 h3{
 	font-family: 'Georgia', 'Times New Roman', times, serif;
@@ -295,7 +296,7 @@ ul.header li{
 	height: 3rem;
 	font-size: 1rem;
 	font-family: 'Whitney SSm A', 'Whitney SSm B' !important;
-	font-weight: 800;
+	font-weight: 400; 
 	font-style: normal;
 	color: white;
 }
@@ -327,7 +328,7 @@ ul.header li{
 	.wrapper-clearfix .navbar-brand {
 		float: left;
 		padding-left: 3em;
-		font-size: 3rem;
+		font-size: 2.5rem;
 		padding-top: 1.5rem;
 	}
 }
