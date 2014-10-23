@@ -1,3 +1,7 @@
+* {
+	font-family: 'Sorts Mill Goudy', serif;
+}
+
 ul { padding: 0;}
 
 body{
@@ -6,7 +10,7 @@ body{
 }
 
 h1{
-	font-family: Cochin, Didot, Times, serif;
+	font-family: Helvetica;
 	color: white;
 	text-transform: uppercase;
 	padding-right: 10px;
@@ -17,7 +21,6 @@ h1{
 }
 
 h3{
-	font-family: Cochin, Didot, Times, serif;
 	color: white;
 	background: #114A99;
 	font-weight: lighter;
@@ -133,7 +136,6 @@ ul.header li{
 	width: 580px;
 	vertical-align: center;
 	color: #000033;
-	font-family: Avenir, Helvetica Neue, Arial Narrow;
 }
 
 .photo-grid:hover figcaption p {
@@ -143,7 +145,6 @@ ul.header li{
 	position: relative;
 	vertical-align: center;
 	font-size: 0.8em;
-	font-family: Avenir, Helvetica, Arial;
 	color: #000033;
 }
 
@@ -212,12 +213,12 @@ ul.header li{
 .wrapper-clearfix .navbar-brand {
 	float: none;
 	margin: 0.5rem;
-	font-family: 'Whitney SSm A', 'Whitney SSm B';
 	font-weight: 700;
 	font-style: normal;
 	font-size: 1.9rem;
 	line-height: 2rem;
 	color: #FFFFFF;
+	margin-right: 2em;
 }
 
 .navbar-brand {
@@ -258,107 +259,3 @@ ul.header li{
 	}
 }
 
-/*mobile styles */
-
-/*@media (max-width: 1010px) {
-	.photo-grid {
-		width: 100%;
-	}
-
-	.photo-grid figcaption p {
-		-moz-transform: translateY(40px);
-		-webkit-transform: translate Y(40px);
-		transform: translateY(40px);
-		display: table-cell;
-		font-size: 16px;
-		position: relative;
-		top: -40px;
-		width: 290px;
-		vertical-align: center;
-		color: #000033;
-		font-family: Avenir, Helvetica Neue, Arial Narrow;
-	}
-
-	.photo-grid li:hover figcaption p {
-		-moz-transform: translateY(40px);
-		-webkit-transform: translate Y(40px);
-		transform: translateY(40px);
-		position: relative;
-		vertical-align: center;
-		font-size: 16px;
-		font-family: Avenir, Helvetica, Arial;
-		color: #000033;
-	   }
-
-	#column {
-	float: none;
-	margin-right: 100px;
-	position: static;
-	width: 25%;
-	margin-top: -1%;
-	margin-left: 15px;
-	}
-
-	#banner img{
-		margin: 10px;
-		width: 600px;
-		height: auto;
-
-	h1{
-		font-family: Cochin, Didot, Times New Roman, serif;
-		color: white;
-		text-transform:uppercase;
-		padding-right: 0px;
-		padding-top: 0px;
-		margin-top: 0px;
-		font-weight: lighter;
-		text-align: center;
-		font-size: 23px;
-		position: relative;
-	}
-
-	#spectator-logo{
-		display: none;
-	}
-
-	#bear{
-		display: none;
-	}
-
-	#column img {
-		width: 100px;
-		float: right;
-		height: auto;
-		margin-left: 10px;
-		margin-right: -200px;
-	}
-
-	#banner img{
-		margin: 100%;
-	}
-}
-
-@media (max-width: 620px) {
-	#banner{
-		display: none;
-	}
-
-
-@media (max-width: 565px) {
-.photo-grid li {
-	width: 30%;
-	}
-
-	#banner{
-		display: none;
-	}
-
-	#spectator-logo{
-		display: none;
-	}
-
-	#bear{
-		display: none;
-	}
-
-}*/
