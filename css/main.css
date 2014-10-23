@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-	font-family: Cochin, Didot, Times New Roman, serif;
+	font-family: Cochin, Didot, Times, serif;
 	color: white;
 	text-transform: uppercase;
 	background: #114A99;
@@ -18,21 +18,31 @@ h1{
 }
 
 h3{
-	font-family: Cochin, Didot, Times New Roman, serif;
+	font-family: Cochin, Didot, Times, serif;
 	color: white;
-	text-transform: uppercase;
 	background: #114A99;
 	font-weight: lighter;
 	text-align: left;
+	font-size: 14px;
+	margin-top: -20px;
+}
+
+.squares img{
+	width: 240px;
+	height: 240px;
+	text-align: center;
+}
+
+.longs img{
+	width: 360px;
+	height: 240px;
+	text-align: center;
 }
 
 
 ul.header li{
 	display: inline-block;
 	margin: 2px;
-}
-
-margin-right: 3%;
 }
 
 #spectator-logo{
@@ -42,88 +52,62 @@ margin-right: 3%;
 	float: right;
 }
 
-
-#banner{
+.banner{
 	width: 100%;
-	margin-top: -15px;
-	margin-bottom: -10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 	text-align: center;
 }
 
-#column{
-	float: right;
-	/*margin-left: 73%;
-	position: static;
-	margin-top: -80%;*/
-	width: 15%;
-}
 
 #bear img{
 	vertical-align: inherit;
 }
 
-#ad-img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 
-#blurb{
-	text-align: justify;
-	font-size: 12px;
-	font-family: Avenir, Helvetica, Arial;
-	margin-left: -34px;
-	margin-right: -122px;
-	margin-bottom: 20px;
-}
 
-
-#photo-div{
+/*#photo-div{
 	width: 85%;
 	list-style-type: none;
 	text-align: center;
 	padding: 0px;
 	margin-left: -7%;
 	float: left;
-}
+}*/
 
-.photo-grid li {
-	display: inline-block;
-	width: 25%;
+.photo-grid {
+/*	display: inline-block;*/
 	text-align: center;
-	max-height:100%;
-	max-width:100%;
-	margin: 0px;
 }
 
-.photo-grid img {
-	display: block;
+.photo-grid .squares img {
+/*	display: block;
 	height: auto;
-	max-width: 100%;
+	max-width: 100%;*/
 }
 
 .photo-grid figure {
-	height: auto;
+/*	height: auto;*/
 	overflow: hidden;
 	position: relative;
-	width: 100%;
-	margin: 0px;
+/*	width: 100%;*/
+/*	margin: 0px;*/
 }
 
 .photo-grid figcaption {
 	background: rgba (0,0,0,0.8);
 	color: #000000;
 	display: table;
-	height: 100%;
+/*	height: 100%;*/
 	left: 0;
 	opacity: 0;
 	position: absolute;
 	right: 0;
 	top: 0;
-	-webkit-transition: all 300ms;
-	-moz-transition: all 300ms;
-	transition: all 300ms;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	transition: all 500ms;
 	-webkit-transition-delay: 100ms;
 	-moz-transition-delay: 100ms;
 	transition-delay: 100ms;
@@ -131,23 +115,23 @@ margin-right: 3%;
 }
 
 .photo-grid figcaption p {
-		-moz-transform: translateY(50px);
-	-webkit-transform: translate Y(50px);
-	transform: translateY(50px);
+		-moz-transform: translateY(30px);
+	-webkit-transform: translate Y(30px);
+	transform: translateY(30px);
 	display: table-cell;
 	font-size: 0.8em;
 	position: relative;
-	top: -40px;
-	width: 290px;
+	top: 20px;
+	width: 580px;
 	vertical-align: center;
 	color: #000033;
 	font-family: Avenir, Helvetica Neue, Arial Narrow;
 }
 
-.photo-grid li:hover figcaption p {
-	-moz-transform: translateY(50px);
-	-webkit-transform: translate Y(50px);
-	transform: translateY(50px);
+.photo-grid:hover figcaption p {
+	-moz-transform: translateY(30px);
+	-webkit-transform: translate Y(30px);
+	transform: translateY(30px);
 	position: relative;
 	vertical-align: center;
 	font-size: 0.8em;
@@ -155,7 +139,7 @@ margin-right: 3%;
 	color: #000033;
 }
 
-.photo-grid li:hover figcaption {
+.photo-grid:hover figcaption {
 		opacity: 1;
 
 }
@@ -169,16 +153,20 @@ margin-right: 3%;
 	max-width: 100%;
 }
 
-.photo-grid li:hover img {
+.photo-grid:hover img {
 	opacity: 0.6;
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
 	transform: scale(1.2);
 }
 
+.ad-column img {
+	width: 100%;
+}
+
 /*mobile styles */
 
-@media (max-width: 1010px) {
+/*@media (max-width: 1010px) {
 	.photo-grid {
 		width: 100%;
 	}
@@ -280,4 +268,4 @@ margin-right: 3%;
 		display: none;
 	}
 
-}
+}*/
