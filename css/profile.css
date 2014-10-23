@@ -84,11 +84,11 @@ h3 {
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
-	background: url('img/face.jpg');
 	/*height: 30rem; Sneha commented it out*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 2rem;
+	text-align: center;
 }
 #media img{
 	max-width:100%;
